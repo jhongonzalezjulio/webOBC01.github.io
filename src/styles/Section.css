@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Press+Start+2P&family=Rubik+Iso&family=Signika+Negative:wght@300;400;600;700&family=Tourney:ital,wght@0,200;0,300;1,100&display=swap');
+
+.cont-public {
+    display: flex;
+}
+
+.contenedor-imagen {
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    display: flex;
+    width: 50%;
+}
+
+.jovenesimg {
+    width: 500px;
+}
+
+.contenedor-texto {
+    border-radius: 800px;
+    margin-right: 1em;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-texto:hover {
+    box-sizing: border-box;
+
+}
+
+.title {
+    font-weight: bold;
+     
+    margin-top: 1.5em;
+    font-family: 'Fjalla One', sans-serif;
+    
+}
+
+.parrafo {
+    margin-top: 2em;
+}
+
+@media screen and (min-width: 500px) {
+    .contenedor-texto {
+        margin-right: 1em;
+        margin-top: 4em;
+        width: 50%;
+        justify-content: center;
+        align-items: center;
+        font-size: 15px;
+    }
+}

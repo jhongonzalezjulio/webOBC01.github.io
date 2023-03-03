@@ -1,0 +1,36 @@
+ 
+ 
+.contenedor-menu{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    box-shadow: 3px 0px 0px 2px gray;
+ }
+
+ .logo{
+    width: 150px;
+ }
+
+ .menu{
+    width: 51%;
+    display: flex;
+  
+ }
+
+ .contlista{
+    display: flex;
+   
+    width: 900px;
+ }
+
+ .listas{
+    margin: 15px;
+    display: flex;
+ }
+
+ .listas:hover{
+
+   border-radius: 50px;
+   font-weight: bold;
+   color:#111427;
+ }

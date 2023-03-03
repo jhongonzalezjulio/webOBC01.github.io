@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import Menu from './components/Menu.js'
+import Botones from './components/Botones.js'
+import Section from './components/Section.js'
 import './App.css';
+import Flotante01 from './components/Flotante01.js'
+import Flotante02 from './components/Flotante02.js';
+import Flotante03 from './components/Flotante03.js';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-       <h1>Esta en mi aplicacion openbootcamp</h1>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menu />
+      <Botones />
+      <Section />
+      <Flotante01 />
+      <Flotante02 />
+      <Flotante03 />
     </div>
   );
 }

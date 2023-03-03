@@ -1,0 +1,37 @@
+
+.contenedor-flotantes {
+    
+    margin: 2em;
+    height: 80px;
+    width: 400px;
+    display: flex;
+    background-color: rgba(217, 232, 255, 0.927);
+    align-items: center;
+    border-radius: 50px;
+    box-shadow: 0 4px 16px 0 #11182733;
+}
+
+.flotante-01 {
+    height: 80%;
+    width: 17%;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50px;
+
+    margin-left: 1em;
+}
+
+.iconos {
+    margin-top: 7%;
+    width: 50px;
+
+}
+
+.contenedor-parrafo {
+    padding-left: 4%;
+}
+
+.texto {
+    font-weight: bold;
+    font-size: 27px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
