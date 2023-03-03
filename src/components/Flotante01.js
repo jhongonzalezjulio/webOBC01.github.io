@@ -6,7 +6,7 @@ import '../styles/Flotante01.css'
 
 function Flotantes() {
     return(
-        <div className="contenedor-flotantes">
+        <div className="contenedor-flotante1">
             <div className="flotante-01">
                 <img className="iconos" src={padlock} />
             </div>

@@ -4,7 +4,7 @@ import cronometro from '../imagenes/cronometro.png'
 
 function Flotante03() {
     return (
-        <div className="contenedor-flotantes">
+        <div className="contenedor-flotante3">
             <div className="flotante-01">
                 <img className="iconos" src={cronometro} />
             </div>

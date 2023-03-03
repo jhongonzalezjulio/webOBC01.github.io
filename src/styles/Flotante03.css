@@ -1,6 +1,7 @@
 
-.contenedor-flotantes {
-    
+.contenedor-flotante3 {
+    position: absolute;
+    left: 70%;
     margin: 2em;
     height: 80px;
     width: 400px;
