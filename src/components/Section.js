@@ -16,7 +16,13 @@ function Section() {
                 <h1 className="title">El Bootcamp gratuito<br></br>
                 que se adapta a ti</h1>
                 <p className="parrafo">Especialízate en desarrollo independientemente de tu nivel de conocimientos y experiencia, nosotros nos adaptaremos a tus objetivos.</p>
+                <div className="contetnedor-boton" >
+                <button className="boton01">
+                    Empieza ya
+                </button>
             </div>
+            </div>
+            
         </div>
     );
 }

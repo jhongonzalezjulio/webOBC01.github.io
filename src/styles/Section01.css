@@ -1,14 +1,114 @@
-.contenedor-formacion{
-    margin-top: 15em;
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fredoka+One&family=Kanit&family=Press+Start+2P&family=Rubik+Distressed&family=Rubik+Iso&family=Signika+Negative:wght@300;400;600;700&family=Tourney:ital,wght@0,200;0,300;1,100&display=swap');
+
+
+.contenedores{
+    display: flex;
+    margin-top: 25em;
     margin-bottom: 5em;
-    height: 50%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.13);
+    width: 100%;
 }
+
+.contenedores:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 180px  #00a1fe;
+}
+
+.imagencs {
+ width: 100%;
+ height: 100%;
+    
+    
+}
+
+.tituloabsoluto{
+    position: absolute;
+    left: 60%;
+    font-size: 2.1em;
+    font-weight: bold;
+
+}
+
+.cs{
+    display: flex;
+    margin-top: 5em;
+    margin-left: 4em;
+}
+
 
 .c1{
+    font-weight: bold;
+    color: rgb(72, 75, 74);
+    margin-top: 7em;
+    margin-left: 3.5em;
+    margin-bottom: 2em;
+    width: 20%;
+    height: 290px;
+    background-color: rgba(172, 208, 255, 0.148);
+    border-radius: 20px;
     
 }
 
-.imagen-icon{
-    width: 50px;
+.c1:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 5px  #00a1fe;
+}
+
+
+
+
+.c2{
+    font-weight: bold;
+    color: rgb(72, 75, 74);
+    margin-top: 7em;
+    margin-left:3.5em;
+    margin-bottom: 2em;
+    width: 20%;
+    height: 290px;
+    background-color: rgba(172, 208, 255, 0.148);
+    border-radius: 20px;
     
+}
+
+.c2:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 5px  #00a1fe;
+}
+
+.c3{
+    font-weight: bold;
+    color: rgb(72, 75, 74);
+    margin-top: 7em;
+    margin-left:4em;
+    margin-bottom: 2em;
+    width: 20%;
+    height: 290px;
+    background-color: rgba(172, 208, 255, 0.148);
+    border-radius: 20px;
+    
+}
+
+.c3:hover{
+    transform: scale(1.04);
+    box-shadow: 0 0 5px  #00a1fe;
+}
+
+.layerimg{margin-top:1em;
+    width: 50px;
+    padding-left: 5px;
+    
+}
+
+.textospan{
+    padding-left: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.mencion{
+    font-size: 1.5em;
 }

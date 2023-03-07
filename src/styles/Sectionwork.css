@@ -1,0 +1,35 @@
+
+.word-conten{
+   padding-top: 10px;
+   margin-bottom: 5em;
+}
+
+.parra{
+   margin-top: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+   font-size: 20px;
+   font-weight:lighter ;
+}
+
+.texto-word{
+   font-weight: bold;
+}
+.botonres{
+   width: 100%;
+   height: 5em;
+   background-color: white;
+   
+}
+
+.botons{
+   width: 200px;
+   height: 50px;
+   margin:0.8em;
+   font-size: 19px;
+   border-radius: 15px;
+   background-color: #2d71fa;
+   text-align: center;
+   color: white;
+   
+   
+}

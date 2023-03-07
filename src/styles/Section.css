@@ -2,6 +2,9 @@
 
 .cont-public {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
 .contenedor-imagen {
@@ -13,32 +16,46 @@
 }
 
 .jovenesimg {
-    width: 500px;
+    width: 700px;
 }
 
 .contenedor-texto {
     border-radius: 800px;
     margin-right: 1em;
     width: 50%;
-    justify-content: center;
-    align-items: center;
+    
+    
 }
 
-.contenedor-texto:hover {
-    box-sizing: border-box;
-
-}
 
 .title {
     font-weight: bold;
-     
     margin-top: 1.5em;
     font-family: 'Fjalla One', sans-serif;
-    
+    font-size: 70px;
 }
 
 .parrafo {
     margin-top: 2em;
+    font-size: 30px;
+}
+
+.contetnedor-boton{
+    background-color: rgba(250, 235, 215, 0.084);
+    height: 4em;
+    width: 20em;
+    margin-left:35%;
+   
+}
+
+.boton01{
+    margin-top: 0.4em;
+    border-radius:5px;
+    width: 90%;
+    height: 80%;
+    color: aliceblue;
+    font-weight: bold;
+    background-color: #111427;
 }
 
 @media screen and (min-width: 500px) {

@@ -1,8 +1,8 @@
 
 .contenedor-flotante1 {
     position: absolute;
-    
-    margin: 2em;
+    margin-left: 20em;
+    margin-top: 10em;
     height: 80px;
     width: 400px;
     display: flex;
@@ -10,6 +10,11 @@
     align-items: center;
     border-radius: 50px;
     box-shadow: 0 4px 16px 0 #11182733;
+}
+
+.contenedor-flotante1:hover {
+    width: 405px;
+    box-shadow: 1px 4px 1px 0 #000000a5;
 }
 
 .flotante-01 {
@@ -35,4 +40,8 @@
     font-weight: bold;
     font-size: 27px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;   
+}
+
+.flotante-01:hover{
+    width: 18%;
 }

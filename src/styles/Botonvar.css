@@ -1,0 +1,61 @@
+.contenedorluz {
+  height: 400px;
+  position: absolute;
+  
+}
+
+ul {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ul li {
+  list-style: none;
+  margin: 10px;
+}
+
+ul li a {
+  position: relative;
+  display: block;
+  width: 70px;
+  height: 70px;
+  text-align: center;
+  align-items: center;
+  line-height: 63px;
+  background: #1fb8ff;
+  border-radius: 50%;
+  font-size: 30px;
+  transition: .5s;
+}
+
+ul li a::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #00c8ff;
+  transition: .5s;
+  transform: scale(.9);
+  z-index: -1;
+}
+
+ul li a:hover::before {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px #00a1fe;
+}
+
+ul li a:hover {
+  color: #057aff;
+  box-shadow: 0 0 5px #001aff;
+  text-shadow: 0 0 5px #552efe;
+}
+
+.imagenred {
+  width: 50px;
+}
+
