@@ -1,22 +1,37 @@
 import React from "react";
 import '../styles/Sectionwork.css';
+import vec1 from '../imagenes/vec1.jpg';
+import vec2 from '../imagenes/vec2.jpg';
+import vec3 from '../imagenes/vec3.jpg';
+
 
 function SectionWork() {
-    return (
 
-        <div className="word-conten">
-            <h1 className="texto-word">Te ayudamos a encontrar trabajo</h1>
-            <p className="parra">
-                A lo largo de tu formación recibirás asesoramiento para mejorar tu CV y te prepararemos para realizar entrevistas con nuestras empresas colaboradoras.<br></br>
-                Esta formación es gratuita para ti y NO se te descontará nada del salario de la oferta de trabajo que consigas.
-            </p>
-            <div className="botonres">
-                <button className="botons">
-                    Empieza ya
-                </button>
-            </div>
+
+  return (
+
+    <div className="work-general">
+
+      <div className="work-conten">
+
+        <div className="vec1">
+          <img className="imagenwork1" src={vec1} />
         </div>
-    );
+
+        <div className="vec1">
+          <img className="imagenwork2" src={vec2} />
+        </div>
+
+        <div className="vec1">
+          <img className="imagenwork3" src={vec3} />
+        </div>
+
+      </div>
+
+    </div>
+    
+  );
+  
 }
 
 export default SectionWork;

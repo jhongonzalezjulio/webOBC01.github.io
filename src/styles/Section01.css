@@ -1,106 +1,103 @@
 @import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Fredoka+One&family=Kanit&family=Press+Start+2P&family=Rubik+Distressed&family=Rubik+Iso&family=Signika+Negative:wght@300;400;600;700&family=Tourney:ital,wght@0,200;0,300;1,100&display=swap');
 
 
-.contenedores{
+.contenedores {
     display: flex;
     margin-top: 25em;
     margin-bottom: 5em;
-    height: 600px;
+    height: 700px;
     background-color: rgba(255, 255, 255, 0.13);
     width: 100%;
 }
 
-.contenedores:hover{
-    transform: scale(1.01);
-    box-shadow: 0 0 180px  #00a1fe;
-}
+
 
 .imagencs {
- width: 100%;
- height: 100%;
-    
-    
+    width: 90%;
+    height: 100%;
+    border-radius: 20px;
+    box-shadow: 0 0 26px gray;
+
 }
 
-.tituloabsoluto{
+.tituloabsoluto {
     position: absolute;
     left: 60%;
     font-size: 2.1em;
     font-weight: bold;
-
 }
 
-.cs{
+.cs {
     display: flex;
     margin-top: 5em;
-    margin-left: 4em;
+    margin-left: 3em;
+
+    padding-right: 1em;
 }
 
 
-.c1{
+.c1 {
     font-weight: bold;
     color: rgb(72, 75, 74);
     margin-top: 7em;
-    margin-left: 3.5em;
     margin-bottom: 2em;
-    width: 20%;
-    height: 290px;
+    width: 35%;
+    height: 400px;
     background-color: rgba(172, 208, 255, 0.148);
     border-radius: 20px;
-    
+    font-size: 1.3em;
 }
 
-.c1:hover{
+.c1:hover {
     transform: scale(1.04);
-    box-shadow: 0 0 5px  #00a1fe;
+    box-shadow: 0 0 5px #00a1fe;
 }
 
 
-
-
-.c2{
+.c2 {
     font-weight: bold;
     color: rgb(72, 75, 74);
     margin-top: 7em;
-    margin-left:3.5em;
+    margin-left: 1em;
     margin-bottom: 2em;
-    width: 20%;
-    height: 290px;
+    width: 35%;
+    height: 400px;
     background-color: rgba(172, 208, 255, 0.148);
     border-radius: 20px;
-    
+    font-size: 1.3em;
 }
 
-.c2:hover{
+.c2:hover {
     transform: scale(1.04);
-    box-shadow: 0 0 5px  #00a1fe;
+    box-shadow: 0 0 5px #00a1fe;
 }
 
-.c3{
+.c3 {
     font-weight: bold;
     color: rgb(72, 75, 74);
     margin-top: 7em;
-    margin-left:4em;
+    margin-left: 1em;
     margin-bottom: 2em;
-    width: 20%;
-    height: 290px;
+    width: 35%;
+    height: 400px;
     background-color: rgba(172, 208, 255, 0.148);
     border-radius: 20px;
-    
+    font-size: 1.3em;
 }
 
-.c3:hover{
+.c3:hover {
     transform: scale(1.04);
-    box-shadow: 0 0 5px  #00a1fe;
+    box-shadow: 0 0 5px #00a1fe;
 }
 
-.layerimg{margin-top:1em;
+.layerimg {
+    margin-top: 1em;
     width: 50px;
     padding-left: 5px;
-    
+
 }
 
-.textospan{
+.textospan {
     padding-left: 10px;
     display: flex;
     flex-wrap: wrap;
@@ -109,6 +106,6 @@
     margin-top: 5px;
 }
 
-.mencion{
+.mencion {
     font-size: 1.5em;
 }

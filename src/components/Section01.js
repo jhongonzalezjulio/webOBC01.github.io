@@ -12,7 +12,7 @@ function Section01() {
             <img className="imagencs" src={programadora} />
             </div>
             <div className="cs">
-            <h className='tituloabsoluto'>Te preparamos para que te conviertas en </h>
+            <h2 className='tituloabsoluto'>Te preparamos para que te conviertas en </h2>
                 <div className="c1">
                     <div className="icon">
                     <h2 className="mencion">FulStack Developer</h2>
@@ -23,7 +23,7 @@ function Section01() {
                         <span className="textospan">| Angular</span>
 
                     </div>
-                </div>
+                </div> 
                 <div className="c2">
                 <h2 className="mencion">Front-End Developer</h2>
                     <div className="icon">

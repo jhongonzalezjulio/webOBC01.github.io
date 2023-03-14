@@ -1,22 +1,38 @@
-.contenedorluz {
-  height: 400px;
-  position: absolute;
-  
+.contenedorpie { 
+  background-image: url('../imagenes/fondopie.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  margin-bottom: 2em;
 }
 
-ul {
+
+.contenedorluz {
+  position: relative;
+  left: 50px;
+  background-color: rgb(117, 111, 111);
+  height: 700px;
+  width: 7%;
+}
+
+
+.listaconluz{
+  padding-top: 10em;
+  padding-bottom: 10em;
   position: relative;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-}
+} 
 
-ul li {
+
+.listaconluz .listasluz {
   list-style: none;
   margin: 10px;
 }
 
-ul li a {
+
+.listaconluz .listasluz .linklist {
   position: relative;
   display: block;
   width: 70px;
@@ -28,9 +44,11 @@ ul li a {
   border-radius: 50%;
   font-size: 30px;
   transition: .5s;
+  margin-top: 0.5em;
 }
 
-ul li a::before {
+
+.listaconluz .listasluz .linklist::before {
   content: '';
   position: absolute;
   top: 0;
@@ -39,23 +57,111 @@ ul li a::before {
   height: 100%;
   border-radius: 50%;
   background: #00c8ff;
-  transition: .5s;
+  transition: 0.3s;
   transform: scale(.9);
   z-index: -1;
 }
 
-ul li a:hover::before {
+
+.listaconluz .listasluz .linklist:hover::before {
   transform: scale(1.1);
-  box-shadow: 0 0 15px #00a1fe;
+  box-shadow: 0 0 15px #ebf0f3;
 }
 
-ul li a:hover {
+
+.listaconluz .listasluz .linklist:hover {
   color: #057aff;
-  box-shadow: 0 0 5px #001aff;
-  text-shadow: 0 0 5px #552efe;
+  box-shadow: 0 0 5px #e6e8ff;
+  text-shadow: 0 0 5px #ffffff;
 }
+
 
 .imagenred {
   width: 50px;
+}
+
+
+.politicas{
+  position: relative;
+  left: 20%;
+  bottom: 124%;
+  align-items: center;
+  width: 30%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.516);
+  border-radius: 30px;
+}
+
+
+.listaul {
+  padding-top: 45%;
+  margin-top: 35%;
+  font-size: 25px;
+  padding-left: 2em;
+}
+
+
+h2 {
+  padding-top: 1em; 
+  text-align: left;
+  padding-left: 1em;
+  
+}
+
+
+
+.elementlist{
+  margin: 1em;
+  text-align: left;
+  list-style: none;
+  font-weight: 500;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.textpolitic {
+  font-weight: bold;
+}
+
+
+.linkpiloticas{
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+
+.explora {
+  background-color: rgba(255, 255, 255, 0.63);
+  position: relative;
+  bottom: 98em;
+  left: 60%;
+  width: 25%;
+  height: 100%;
+  border-radius: 30px;
+}
+
+
+.exploraul {
+  
+  padding-top: 60%;
+  position:relative;
+  top: 50px;  
+  list-style: none;
+}
+
+
+.explolist {
+  
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+}
+
+
+.linkexplore {
+  
+  text-decoration: none;
+  color: #010101;
+  
 }
 

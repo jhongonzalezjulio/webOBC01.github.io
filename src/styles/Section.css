@@ -4,7 +4,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 
 .contenedor-imagen {
@@ -12,19 +11,17 @@
     align-items: center;
     margin-top: 10px;
     display: flex;
-    width: 50%;
+    width: 90%;
 }
 
 .jovenesimg {
-    width: 700px;
+    width: 100%;
 }
 
 .contenedor-texto {
     border-radius: 800px;
     margin-right: 1em;
     width: 50%;
-    
-    
 }
 
 
@@ -40,17 +37,13 @@
     font-size: 30px;
 }
 
-.contetnedor-boton{
-    background-color: rgba(250, 235, 215, 0.084);
-    height: 4em;
-    width: 20em;
-    margin-left:35%;
-   
+.contenedor-boton{
+    border-radius: 10px;
+    padding-bottom: 2em;
 }
-
 .boton01{
-    margin-top: 0.4em;
-    border-radius:5px;
+    box-shadow: 3px 3px 16px  rgb(54, 98, 255);
+    border-radius: 5px;
     width: 90%;
     height: 80%;
     color: aliceblue;

@@ -3,8 +3,8 @@
     position: absolute;
     margin-left: 20em;
     margin-top: 10em;
-    height: 80px;
-    width: 400px;
+    height: 100px;
+    width: 450px;
     display: flex;
     background-color: rgba(217, 232, 255, 0.927);
     align-items: center;
@@ -22,7 +22,6 @@
     width: 17%;
     background-color: rgb(255, 255, 255);
     border-radius: 50px;
-
     margin-left: 1em;
 }
 

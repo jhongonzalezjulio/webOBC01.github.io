@@ -1,13 +1,45 @@
 
 .imagen-fondo{
-    background-image: url('../imagenes//programadorfondo.jpg');
+    background-image: url('../imagenes/programadorfondo.jpg');
     width: 100%;
     height: 1000px;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-}
-
-.titulisimo{
     
 }
+
+.complete{
+    width: 50%;
+    height: 1000px;
+    position: relative;
+    left: 25%;
+    padding-top: 10em;
+    
+}
+
+
+.titulisimo{
+    text-shadow: 0 0 12px rgb(65, 64, 64);
+    top:4em;
+    color: aliceblue;
+    font-weight: 900;
+    font-size:10em;
+}
+
+.contetnedor-boton{
+    margin-top: 5em;
+    width: 100%;
+    height: 150px;
+    
+}
+
+.boton01{
+    margin-top: 0.8em;
+    font-size: 30px;
+    width: 400px;
+    height: 100px;
+}
+
+
+

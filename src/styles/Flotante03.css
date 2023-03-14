@@ -4,13 +4,29 @@
     left: 70%;
     margin-left: -8em;
     margin-top: 10em;
-    height: 80px;
-    width: 400px;
+    height: 100px;
+    width: 450px;
     display: flex;
     background-color: rgba(217, 232, 255, 0.927);
     align-items: center;
     border-radius: 50px;
     box-shadow: 0 4px 16px 0 #11182733;
+}
+
+@media screen and  (max-width:){
+    .contenedor-flotante3 {
+        position: absolute;
+        left: 70%;
+        margin-left: -5em;
+        margin-top: 10em;
+        height: 100px;
+        width: 450px;
+        display: flex;
+        background-color: rgba(217, 232, 255, 0.927);
+        align-items: center;
+        border-radius: 50px;
+        box-shadow: 0 4px 16px 0 #11182733;
+    }
 }
 .contenedor-flotante3:hover {
     width: 405px;
