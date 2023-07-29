@@ -8,7 +8,7 @@ function BlockExample() {
       <Button className='boton1' variant="primary" size="xs">
         Ir al campus
       </Button>
-      <Button className='boton2' variant="outline-info" size="x  s">
+      <Button className='boton2' variant="outline-info" size="xs">
         Empieza ya
       </Button>
     </div>
